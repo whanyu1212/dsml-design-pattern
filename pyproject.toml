@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["hy"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -16,8 +17,15 @@ tensorflow = "^2.17.0"
 torch = "^2.4.0"
 ipykernel = "^6.29.5"
 seaborn = "^0.13.2"
+pytest = "^8.3.3"
+matplotlib = "^3.9.2"
+pytest-mock = "^3.14.0"
+setuptools = "^75.1.0"
+pydantic = "^2.9.2"
+yfinance = "^0.2.44"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
